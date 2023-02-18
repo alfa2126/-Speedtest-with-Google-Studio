@@ -30,7 +30,6 @@ def speedtest():
     global status
     global hora_des
     global today_des
-    # inicilisamos variables 
     hora_co = 0
     today_co = 0
     status = 0
@@ -54,7 +53,7 @@ def speedtest():
             # Test Ping
             ping = server.results.ping
             ping = round(ping,2)
-            # verificamos la conexion a internet
+            # conextion red
             try:
                 socket.create_connection(("www.google.com", 80))
                 print("Connected")

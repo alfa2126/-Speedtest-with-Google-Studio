@@ -17,7 +17,7 @@ This project consists of a python script that is used to measure the speed of th
 <details>
 <summary> 3) Search for "Google Sheets API" and activate it.</summary>
     
-    ![Ejemplo de imagen](/images/3.jpg)
+   ![Ejemplo de imagen](/images/3.jpg)
     
 </details>
 

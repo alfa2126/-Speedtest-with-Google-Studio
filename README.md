@@ -10,7 +10,7 @@ This project consists of a python script that is used to measure the speed of th
 we activate the virtual environment 
    
     .\virtual\Scripts\activate  # windows 
-     source tfod/bin/activate # Linux
+     source virtual/bin/activate # Linux
 
 
 </details>

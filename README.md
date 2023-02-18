@@ -2,16 +2,26 @@
 This project consists of a python script that is used to measure the speed of the internet which you can connect to a google sheet to use it as a database and then use the data to create a report in google data studio
 
 
+<details>
+<summary> 1) create a virtual environment</summary>
 
-Next I will describe the steps to make it work in code.
-We must first create a virtual environment before installing the dependencies that will allow our code to function
+    python -m venv virtual
 
-1) create a virtual environment python -m venv virtual
+we activate the virtual environment 
+   
+    .\virtual\Scripts\activate  # windows 
+     source tfod/bin/activate # Linux
 
-We already have the virtual environment installed, we can proceed with its activation    
-   2) we activate the virtual environment 
-    .\virtual\Scripts\activate
-    
+
+</details>
+
+
+
+
+<details>
+<summary> Next I will describe the steps to make it work in code.
+We must first create a virtual environment before installing the dependencies that will allow our code to function</summary>
+
 Now we are going to install the dependencies in our virtual environment
 and I will explain the libraries that we are going to use in our code
 
@@ -38,4 +48,13 @@ To install this library, you don't need to do anything, as it is also included w
 To install this library, you can use pip by running the following command at the command line: pip install gspread.
 
 To use gspread, you will also need to install oauth2client. You can install it using pip by running the following command at the command line: pip install oauth2client.    
+
+</details>
+
+    
+   
+    
+    
+    
+
     
